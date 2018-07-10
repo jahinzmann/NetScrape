@@ -6,3 +6,6 @@ var Headline = new Schema({
     link: {type: String, required: true},
     summary: {type: String, required: true}
 });
+
+var headline = mongoose.model("Headline", Headline);
+module.exports = headline;

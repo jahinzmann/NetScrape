@@ -14,6 +14,6 @@ deleteNote: function() {
 
 }, 
 
-}
+};
 
 module.exports = note
